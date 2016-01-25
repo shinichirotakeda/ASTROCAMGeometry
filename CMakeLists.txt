@@ -11,6 +11,7 @@ set(CMAKE_C_FLAGS_RELEASE "-O2 -W -Wall" CACHE STRING "C_FLAGS for release")
 project(ASTROCAMGeometry)
 add_definitions("-std=c++11")
 set(TARGET_LIBRARY ASTROCAMGeometry)
+set(G4_LIB_DIR $ENV{G4_LIB_DIR})
 
 ### option ####
 option(CS_USE_ROOT "enable ROOT analysis framework" ON)

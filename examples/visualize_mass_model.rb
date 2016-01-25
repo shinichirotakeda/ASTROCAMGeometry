@@ -23,9 +23,9 @@ def run_simulation(num, random)
   sim.random_seed = random
   sim.verbose = 0
 
-  sim.detector_config = "/Users/takeda/simulation/astrocam/database/detector_configuration.xml"
-  sim.simulation_param = "/Users/takeda/simulation/astrocam/database/simulation_parameters.xml"
-  sim.analysis_param = "/Users/takeda/simulation/astrocam/database/analysis_parameters.xml"
+  sim.detector_config = "database/detector_configuration.xml"
+  sim.simulation_param = "database/simulation_parameters.xml"
+  sim.analysis_param = "database/analysis_parameters.xml"
 
 
   
