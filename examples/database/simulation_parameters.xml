@@ -1,0 +1,156 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="http://www.astro.isas.jaxa.jp/~odaka/xmlstyle/simulation_param_v4.xsl" ?>
+
+<simulation>
+  <name>SGDCC</name>
+  <comment>S. Takeda | 2015-12-18</comment>
+  
+  <sd_check />
+
+  <sensitive_detectors>
+
+    <sensitive_detector>
+      <name>SiPad_Logical</name>
+      <type>2DPixel</type>
+       <id_method>path</id_method>
+      <layer_offset>1</layer_offset>     
+      <simulation_param_common>
+	<upside_anode set="0" />
+        <upside_pad set="1" />
+        <sim_pha mode="0" />
+        <sim_diffusion mode="0"/>
+      </simulation_param_common>
+      <detector_list>
+        <detector id="0" path="EM1/ComptonCamera/SiModule00/SiPadTop"><simulation_param></simulation_param></detector>
+        <detector id="1" path="EM1/ComptonCamera/SiModule00/SiPadBtm"><simulation_param></simulation_param></detector>
+        <detector id="2" path="EM1/ComptonCamera/SiModule01/SiPadTop"><simulation_param></simulation_param></detector>
+        <detector id="3" path="EM1/ComptonCamera/SiModule01/SiPadBtm"><simulation_param></simulation_param></detector>
+        <detector id="4" path="EM1/ComptonCamera/SiModule02/SiPadTop"><simulation_param></simulation_param></detector>
+        <detector id="5" path="EM1/ComptonCamera/SiModule02/SiPadBtm"><simulation_param></simulation_param></detector>
+        <detector id="6" path="EM1/ComptonCamera/SiModule03/SiPadTop"><simulation_param></simulation_param></detector>
+        <detector id="7" path="EM1/ComptonCamera/SiModule03/SiPadBtm"><simulation_param></simulation_param></detector>
+        <detector id="8" path="EM1/ComptonCamera/SiModule04/SiPadTop"><simulation_param></simulation_param></detector>
+        <detector id="9" path="EM1/ComptonCamera/SiModule04/SiPadBtm"><simulation_param></simulation_param></detector>
+        <detector id="10" path="EM1/ComptonCamera/SiModule05/SiPadTop"><simulation_param></simulation_param></detector>
+        <detector id="11" path="EM1/ComptonCamera/SiModule05/SiPadBtm"><simulation_param></simulation_param></detector>
+        <detector id="12" path="EM1/ComptonCamera/SiModule06/SiPadTop"><simulation_param></simulation_param></detector>
+        <detector id="13" path="EM1/ComptonCamera/SiModule06/SiPadBtm"><simulation_param></simulation_param></detector>
+        <detector id="14" path="EM1/ComptonCamera/SiModule07/SiPadTop"><simulation_param></simulation_param></detector>
+        <detector id="15" path="EM1/ComptonCamera/SiModule07/SiPadBtm"><simulation_param></simulation_param></detector>
+        <detector id="16" path="EM1/ComptonCamera/SiModule08/SiPadTop"><simulation_param></simulation_param></detector>
+        <detector id="17" path="EM1/ComptonCamera/SiModule08/SiPadBtm"><simulation_param></simulation_param></detector>
+        <detector id="18" path="EM1/ComptonCamera/SiModule09/SiPadTop"><simulation_param></simulation_param></detector>
+        <detector id="19" path="EM1/ComptonCamera/SiModule09/SiPadBtm"><simulation_param></simulation_param></detector>
+        <detector id="20" path="EM1/ComptonCamera/SiModule10/SiPadTop"><simulation_param></simulation_param></detector>
+        <detector id="21" path="EM1/ComptonCamera/SiModule10/SiPadBtm"><simulation_param></simulation_param></detector>
+        <detector id="22" path="EM1/ComptonCamera/SiModule11/SiPadTop"><simulation_param></simulation_param></detector>
+        <detector id="23" path="EM1/ComptonCamera/SiModule11/SiPadBtm"><simulation_param></simulation_param></detector>
+        <detector id="24" path="EM1/ComptonCamera/SiModule12/SiPadTop"><simulation_param></simulation_param></detector>
+        <detector id="25" path="EM1/ComptonCamera/SiModule12/SiPadBtm"><simulation_param></simulation_param></detector>
+        <detector id="26" path="EM1/ComptonCamera/SiModule13/SiPadTop"><simulation_param></simulation_param></detector>
+        <detector id="27" path="EM1/ComptonCamera/SiModule13/SiPadBtm"><simulation_param></simulation_param></detector>
+        <detector id="28" path="EM1/ComptonCamera/SiModule14/SiPadTop"><simulation_param></simulation_param></detector>
+        <detector id="29" path="EM1/ComptonCamera/SiModule14/SiPadBtm"><simulation_param></simulation_param></detector>
+        <detector id="30" path="EM1/ComptonCamera/SiModule15/SiPadTop"><simulation_param></simulation_param></detector>
+        <detector id="31" path="EM1/ComptonCamera/SiModule15/SiPadBtm"><simulation_param></simulation_param></detector>
+      </detector_list>
+    </sensitive_detector>
+
+    <sensitive_detector>
+      <name>CdTePad_Logical</name>
+      <type>2DPixel</type>
+       <id_method>path</id_method>
+      <layer_offset>1</layer_offset>     
+      <simulation_param_common>
+	<upside_anode set="0" />
+        <upside_pad set="1" />
+        <sim_pha mode="0" />
+        <sim_diffusion mode="0"/>
+      </simulation_param_common>
+      <detector_list>
+        <detector id="100" path="EM1/ComptonCamera/CdTeBtmModule00/CdTePadTop00"><simulation_param></simulation_param></detector>
+        <detector id="101" path="EM1/ComptonCamera/CdTeBtmModule00/CdTePadTop01"><simulation_param></simulation_param></detector>
+        <detector id="102" path="EM1/ComptonCamera/CdTeBtmModule00/CdTePadTop02"><simulation_param></simulation_param></detector>
+        <detector id="103" path="EM1/ComptonCamera/CdTeBtmModule00/CdTePadTop03"><simulation_param></simulation_param></detector>
+        <detector id="110" path="EM1/ComptonCamera/CdTeBtmModule00/CdTePadBtm00"><simulation_param></simulation_param></detector>
+        <detector id="111" path="EM1/ComptonCamera/CdTeBtmModule00/CdTePadBtm01"><simulation_param></simulation_param></detector>
+        <detector id="112" path="EM1/ComptonCamera/CdTeBtmModule00/CdTePadBtm02"><simulation_param></simulation_param></detector>
+        <detector id="113" path="EM1/ComptonCamera/CdTeBtmModule00/CdTePadBtm03"><simulation_param></simulation_param></detector>
+        <detector id="120" path="EM1/ComptonCamera/CdTeBtmModule01/CdTePadTop00"><simulation_param></simulation_param></detector>
+        <detector id="121" path="EM1/ComptonCamera/CdTeBtmModule01/CdTePadTop01"><simulation_param></simulation_param></detector>
+        <detector id="122" path="EM1/ComptonCamera/CdTeBtmModule01/CdTePadTop02"><simulation_param></simulation_param></detector>
+        <detector id="123" path="EM1/ComptonCamera/CdTeBtmModule01/CdTePadTop03"><simulation_param></simulation_param></detector>
+        <detector id="130" path="EM1/ComptonCamera/CdTeBtmModule01/CdTePadBtm00"><simulation_param></simulation_param></detector>
+        <detector id="131" path="EM1/ComptonCamera/CdTeBtmModule01/CdTePadBtm01"><simulation_param></simulation_param></detector>
+        <detector id="132" path="EM1/ComptonCamera/CdTeBtmModule01/CdTePadBtm02"><simulation_param></simulation_param></detector>
+        <detector id="133" path="EM1/ComptonCamera/CdTeBtmModule01/CdTePadBtm03"><simulation_param></simulation_param></detector>
+        <detector id="140" path="EM1/ComptonCamera/CdTeBtmModule02/CdTePadTop00"><simulation_param></simulation_param></detector>
+        <detector id="141" path="EM1/ComptonCamera/CdTeBtmModule02/CdTePadTop01"><simulation_param></simulation_param></detector>
+        <detector id="142" path="EM1/ComptonCamera/CdTeBtmModule02/CdTePadTop02"><simulation_param></simulation_param></detector>
+        <detector id="143" path="EM1/ComptonCamera/CdTeBtmModule02/CdTePadTop03"><simulation_param></simulation_param></detector>
+        <detector id="150" path="EM1/ComptonCamera/CdTeBtmModule02/CdTePadBtm00"><simulation_param></simulation_param></detector>
+        <detector id="151" path="EM1/ComptonCamera/CdTeBtmModule02/CdTePadBtm01"><simulation_param></simulation_param></detector>
+        <detector id="152" path="EM1/ComptonCamera/CdTeBtmModule02/CdTePadBtm02"><simulation_param></simulation_param></detector>
+        <detector id="153" path="EM1/ComptonCamera/CdTeBtmModule02/CdTePadBtm03"><simulation_param></simulation_param></detector>
+        <detector id="160" path="EM1/ComptonCamera/CdTeBtmModule03/CdTePadTop00"><simulation_param></simulation_param></detector>
+        <detector id="161" path="EM1/ComptonCamera/CdTeBtmModule03/CdTePadTop01"><simulation_param></simulation_param></detector>
+        <detector id="162" path="EM1/ComptonCamera/CdTeBtmModule03/CdTePadTop02"><simulation_param></simulation_param></detector>
+        <detector id="163" path="EM1/ComptonCamera/CdTeBtmModule03/CdTePadTop03"><simulation_param></simulation_param></detector>
+        <detector id="170" path="EM1/ComptonCamera/CdTeBtmModule03/CdTePadBtm00"><simulation_param></simulation_param></detector>
+        <detector id="171" path="EM1/ComptonCamera/CdTeBtmModule03/CdTePadBtm01"><simulation_param></simulation_param></detector>
+        <detector id="172" path="EM1/ComptonCamera/CdTeBtmModule03/CdTePadBtm02"><simulation_param></simulation_param></detector>
+        <detector id="173" path="EM1/ComptonCamera/CdTeBtmModule03/CdTePadBtm03"><simulation_param></simulation_param></detector>
+
+        <detector id="200" path="EM1/ComptonCamera/CdTeSideModule00/SideCdTePadInside00"><simulation_param></simulation_param></detector>
+        <detector id="201" path="EM1/ComptonCamera/CdTeSideModule00/SideCdTePadInside01"><simulation_param></simulation_param></detector>
+        <detector id="202" path="EM1/ComptonCamera/CdTeSideModule00/SideCdTePadInside02"><simulation_param></simulation_param></detector>
+        <detector id="203" path="EM1/ComptonCamera/CdTeSideModule00/SideCdTePadInside03"><simulation_param></simulation_param></detector>
+        <detector id="204" path="EM1/ComptonCamera/CdTeSideModule00/SideCdTePadInside04"><simulation_param></simulation_param></detector>
+        <detector id="205" path="EM1/ComptonCamera/CdTeSideModule00/SideCdTePadInside05"><simulation_param></simulation_param></detector>
+        <detector id="210" path="EM1/ComptonCamera/CdTeSideModule00/SideCdTePadOutside00"><simulation_param></simulation_param></detector>
+        <detector id="211" path="EM1/ComptonCamera/CdTeSideModule00/SideCdTePadOutside01"><simulation_param></simulation_param></detector>
+        <detector id="212" path="EM1/ComptonCamera/CdTeSideModule00/SideCdTePadOutside02"><simulation_param></simulation_param></detector>
+        <detector id="213" path="EM1/ComptonCamera/CdTeSideModule00/SideCdTePadOutside03"><simulation_param></simulation_param></detector>
+        <detector id="214" path="EM1/ComptonCamera/CdTeSideModule00/SideCdTePadOutside04"><simulation_param></simulation_param></detector>
+        <detector id="215" path="EM1/ComptonCamera/CdTeSideModule00/SideCdTePadOutside05"><simulation_param></simulation_param></detector>
+        <detector id="220" path="EM1/ComptonCamera/CdTeSideModule01/SideCdTePadInside00"><simulation_param></simulation_param></detector>
+        <detector id="221" path="EM1/ComptonCamera/CdTeSideModule01/SideCdTePadInside01"><simulation_param></simulation_param></detector>
+        <detector id="222" path="EM1/ComptonCamera/CdTeSideModule01/SideCdTePadInside02"><simulation_param></simulation_param></detector>
+        <detector id="223" path="EM1/ComptonCamera/CdTeSideModule01/SideCdTePadInside03"><simulation_param></simulation_param></detector>
+        <detector id="224" path="EM1/ComptonCamera/CdTeSideModule01/SideCdTePadInside04"><simulation_param></simulation_param></detector>
+        <detector id="225" path="EM1/ComptonCamera/CdTeSideModule01/SideCdTePadInside05"><simulation_param></simulation_param></detector>
+        <detector id="230" path="EM1/ComptonCamera/CdTeSideModule01/SideCdTePadOutside00"><simulation_param></simulation_param></detector>
+        <detector id="231" path="EM1/ComptonCamera/CdTeSideModule01/SideCdTePadOutside01"><simulation_param></simulation_param></detector>
+        <detector id="232" path="EM1/ComptonCamera/CdTeSideModule01/SideCdTePadOutside02"><simulation_param></simulation_param></detector>
+        <detector id="233" path="EM1/ComptonCamera/CdTeSideModule01/SideCdTePadOutside03"><simulation_param></simulation_param></detector>
+        <detector id="234" path="EM1/ComptonCamera/CdTeSideModule01/SideCdTePadOutside04"><simulation_param></simulation_param></detector>
+        <detector id="235" path="EM1/ComptonCamera/CdTeSideModule01/SideCdTePadOutside05"><simulation_param></simulation_param></detector>
+        <detector id="240" path="EM1/ComptonCamera/CdTeSideModule02/SideCdTePadInside00"><simulation_param></simulation_param></detector>
+        <detector id="241" path="EM1/ComptonCamera/CdTeSideModule02/SideCdTePadInside01"><simulation_param></simulation_param></detector>
+        <detector id="242" path="EM1/ComptonCamera/CdTeSideModule02/SideCdTePadInside02"><simulation_param></simulation_param></detector>
+        <detector id="243" path="EM1/ComptonCamera/CdTeSideModule02/SideCdTePadInside03"><simulation_param></simulation_param></detector>
+        <detector id="244" path="EM1/ComptonCamera/CdTeSideModule02/SideCdTePadInside04"><simulation_param></simulation_param></detector>
+        <detector id="245" path="EM1/ComptonCamera/CdTeSideModule02/SideCdTePadInside05"><simulation_param></simulation_param></detector>
+        <detector id="250" path="EM1/ComptonCamera/CdTeSideModule02/SideCdTePadOutside00"><simulation_param></simulation_param></detector>
+        <detector id="251" path="EM1/ComptonCamera/CdTeSideModule02/SideCdTePadOutside01"><simulation_param></simulation_param></detector>
+        <detector id="252" path="EM1/ComptonCamera/CdTeSideModule02/SideCdTePadOutside02"><simulation_param></simulation_param></detector>
+        <detector id="253" path="EM1/ComptonCamera/CdTeSideModule02/SideCdTePadOutside03"><simulation_param></simulation_param></detector>
+        <detector id="254" path="EM1/ComptonCamera/CdTeSideModule02/SideCdTePadOutside04"><simulation_param></simulation_param></detector>
+        <detector id="255" path="EM1/ComptonCamera/CdTeSideModule02/SideCdTePadOutside05"><simulation_param></simulation_param></detector>
+        <detector id="260" path="EM1/ComptonCamera/CdTeSideModule03/SideCdTePadInside00"><simulation_param></simulation_param></detector>
+        <detector id="261" path="EM1/ComptonCamera/CdTeSideModule03/SideCdTePadInside01"><simulation_param></simulation_param></detector>
+        <detector id="262" path="EM1/ComptonCamera/CdTeSideModule03/SideCdTePadInside02"><simulation_param></simulation_param></detector>
+        <detector id="263" path="EM1/ComptonCamera/CdTeSideModule03/SideCdTePadInside03"><simulation_param></simulation_param></detector>
+        <detector id="264" path="EM1/ComptonCamera/CdTeSideModule03/SideCdTePadInside04"><simulation_param></simulation_param></detector>
+        <detector id="265" path="EM1/ComptonCamera/CdTeSideModule03/SideCdTePadInside05"><simulation_param></simulation_param></detector>
+        <detector id="270" path="EM1/ComptonCamera/CdTeSideModule03/SideCdTePadOutside00"><simulation_param></simulation_param></detector>
+        <detector id="271" path="EM1/ComptonCamera/CdTeSideModule03/SideCdTePadOutside01"><simulation_param></simulation_param></detector>
+        <detector id="272" path="EM1/ComptonCamera/CdTeSideModule03/SideCdTePadOutside02"><simulation_param></simulation_param></detector>
+        <detector id="273" path="EM1/ComptonCamera/CdTeSideModule03/SideCdTePadOutside03"><simulation_param></simulation_param></detector>
+        <detector id="274" path="EM1/ComptonCamera/CdTeSideModule03/SideCdTePadOutside04"><simulation_param></simulation_param></detector>
+        <detector id="275" path="EM1/ComptonCamera/CdTeSideModule03/SideCdTePadOutside05"><simulation_param></simulation_param></detector>
+      </detector_list>
+    </sensitive_detector>
+ 
+  </sensitive_detectors>
+</simulation>
